@@ -357,8 +357,10 @@
         text-decoration-thickness: 0.1rem;
     }
 
-    
-    
+    .hll-cont-resp{
+        margin-bottom: 20px;
+    }
+
     .wcst01 {
         font-size: 1.2rem;
         line-height: 1.6rem;
@@ -415,6 +417,10 @@
 
     .pill_button-i-opn-m{
         display: none;
+    }
+
+    .hll-cont-resp{
+        margin-bottom: 25px;
     }
 
 }
