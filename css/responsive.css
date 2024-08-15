@@ -26,6 +26,17 @@
         font-size: 1.8rem;
     }
 
+    /*FORM*/
+    .cntct-form-title {
+        font-size: 2.5rem;
+        margin: 1.2rem auto;
+    }
+
+    .cntct-form-x {
+        width: 20px;
+        height: 20px;
+    }
+
 }
 
 /*size 1100px*/
@@ -61,12 +72,33 @@
         font-size: 3rem;
         line-height: 3.4rem;
     }
+
+    /*FORM*/
+    .cntct-form-title {
+        font-size: 2.2rem;
+        margin: 1rem auto;
+    }
+
+    .cntct-form-x {
+        width: 18px;
+        height: 18px;
+    }
+
+    .ipt03-cntform {
+        font-size: 1.1rem;
+        height: 45px;
+    }
 }
 
 /*size 940px*/
 @media all and (max-width: 940px){
     .box_contact_mail a {
         font-size: 2.6rem;
+    }
+
+    /*FORM*/
+    .cntct-form {
+        max-width: 90%;
     }
 }
 
@@ -189,6 +221,11 @@
     .res_stc_01 {
         max-width: 48%;
     }
+
+    /*FORM*/
+    .cntct-form {
+        max-width: 95%;
+    }
 }
 
 /*size 590px*/
@@ -196,6 +233,16 @@
     .box_contact_mail a {
         font-size: 1.6rem;
         text-decoration-thickness: 0.14rem;
+    }
+
+    /*FORM*/
+    .prv-plc {
+        font-size: 0.9rem;
+    }
+
+    .ipt03-cntform {
+        font-size: 1rem;
+        height: 40px;
     }
 }
 
@@ -379,6 +426,16 @@
     .git_stc_01, .res_stc_01 {
         font-size: 1.1rem;
     }
+
+    /*FORM*/
+    .cntct-form-title {
+        font-size: 2rem;
+        margin: 1rem auto;
+    }
+
+    form {
+        font-size: 0.9rem;
+    }
 }
 
 /*size 375px*/
@@ -499,6 +556,27 @@
 
     .ftr_abt_mt {
         margin-top: 40%;
+    }
+
+    /*FORM*/
+    .cntct-form-title {
+        font-size: 1.9rem;
+        margin: 0.9rem auto;
+        line-height: 2rem;
+    }
+
+    .cntct-form-x {
+        width: 16px;
+        height: 16px;
+    }
+
+    /*form {
+        font-size: 0.9rem;
+    }*/
+
+    .ipt03-cntform {
+        font-size: 0.9rem;
+        height: 35px;
     }
 
 }

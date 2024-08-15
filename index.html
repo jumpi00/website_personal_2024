@@ -81,8 +81,8 @@
 
 
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/style-form.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="script/script.js" rel="preload" as="script"></script>
 
@@ -111,7 +111,7 @@
             </nav>
         </header>
 
-        <div class="nv-smlscrn-y">
+        <div id="nav_fixed02_b" class="nv-smlscrn-y">
             <div id="nav_fixed">
                 <a class="header_logo" aria-label="Logo" href="index.html">Giampaolo Zirone</a>
                 <span class="header_text_nv hdr-txt-nv-123ltc  mn-opn">more</span>
@@ -373,12 +373,14 @@
                                     document.getElementById("frm01").classList.add("cntct-form-prt");
                                     document.getElementById("blr-frm-01").classList.add("over_fullAlt-frm");
                                     document.getElementById("nav_fixed").classList.add("z-meno");
+                                    document.getElementById("nav_fixed02_b").classList.add("z-meno");
                                 });
 
                                 document.getElementById("chdndo").addEventListener("click", function () {
                                     document.getElementById("frm01").classList.remove("cntct-form-prt");
                                     document.getElementById("blr-frm-01").classList.remove("over_fullAlt-frm");
                                     document.getElementById("nav_fixed").classList.remove("z-meno");
+                                    document.getElementById("nav_fixed02_b").classList.remove("z-meno");
                                 });
 
                                 //SECOND FRM
@@ -386,12 +388,14 @@
                                     document.getElementById("frm02").classList.add("cntct-form-prt");
                                     document.getElementById("blr-frm-01").classList.add("over_fullAlt-frm");
                                     document.getElementById("nav_fixed").classList.add("z-meno");
+                                    document.getElementById("nav_fixed02_b").classList.add("z-meno");
                                 });
 
                                 document.getElementById("chdndo02").addEventListener("click", function () {
                                     document.getElementById("frm02").classList.remove("cntct-form-prt");
                                     document.getElementById("blr-frm-01").classList.remove("over_fullAlt-frm");
                                     document.getElementById("nav_fixed").classList.remove("z-meno");
+                                    document.getElementById("nav_fixed02_b").classList.remove("z-meno");
                                 });
 
 
