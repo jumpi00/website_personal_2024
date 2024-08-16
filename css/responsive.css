@@ -454,6 +454,10 @@
     form {
         font-size: 0.9rem;
     }
+
+    .ipt02-cntform {
+        min-height: 120px;
+    }
 }
 
 /*size 375px*/
