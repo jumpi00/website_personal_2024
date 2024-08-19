@@ -53,6 +53,13 @@
     .cntct-form-prv {
         padding: 1.2rem;
     }
+
+    /*PRIVACY*/
+    .sc-pvc {
+        padding: 18% 6% 5% 6%;
+        max-width: 50%;
+    }
+    
 }
 
 
@@ -97,6 +104,17 @@
     .cntct-form-ctn {
         padding: 2rem;
     }
+
+    /*PRIVACY*/
+    .sc-pvc {
+        padding: 18% 6% 5% 6%;
+        max-width: 60%;
+        font-size: 1.1rem;
+    }
+
+    .ttl-pvc {
+        font-size: 3.2rem;
+    }
 }
 
 /*size 940px*/
@@ -108,6 +126,13 @@
     /*FORM*/
     .cntct-form {
         max-width: 90%;
+    }
+
+    /*PRIVACY*/
+    .sc-pvc {
+        padding: 20% 6% 5% 6%;
+        max-width: 60%;
+        font-size: 1.1rem;
     }
 }
 
@@ -179,6 +204,17 @@
     .h4_intro, .xpfcs_pre-ul {
         font-size: 1.1rem;
     }
+
+    /*PRIVACY*/
+    .sc-pvc {
+        padding: 24% 6% 5% 6%;
+        max-width: 70%;
+        font-size: 1rem;
+    }
+
+    .ttl-pvc {
+        font-size: 3rem;
+    }
 }
 
 /*size 690px*/
@@ -235,6 +271,23 @@
     .cntct-form {
         max-width: 95%;
     }
+
+    /*PRIVACY*/
+    .sc-pvc {
+        padding: 24% 6% 5% 6%;
+        max-width: 82%;
+        font-size: 1rem;
+    }
+
+    .ttl-pvc {
+        font-size: 2.5rem;
+        margin: 1.5rem auto;
+    }
+
+    .jj1O {
+        font-size: 1.2rem;
+    }
+    
 }
 
 /*size 590px*/
@@ -384,6 +437,18 @@
     .cntct-form-prv {
         padding: 0.8rem;
     }
+
+    /*PRIVACY*/
+    .sc-pvc {
+        padding: 34% 6% 5% 6%;
+        font-size: 1rem;
+    }
+
+    .ttl-pvc {
+        font-size: 2.2rem;
+        margin: 1.2rem auto;
+    }
+
 }
 
 /*size 425px*/
@@ -505,6 +570,18 @@
     /*FORM*/
     .cntct-form-ctn {
         padding: 2.2rem 1rem;
+    }
+
+    /*PRIVACY*/
+    .sc-pvc {
+        padding: 42% 6% 5% 6%;
+        font-size: 0.9rem;
+        max-width: 85%;
+    }
+
+    .ttl-pvc {
+        font-size: 2.2rem;
+        margin: 1rem auto;
     }
 
 }
